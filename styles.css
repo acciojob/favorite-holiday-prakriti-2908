@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+body{
+	background-color: gray;
+}
+.main{
+	display: grid;
+	grid-template-areas: "a a" "b b" "c d";
+	/* grid-row-gap: 0px; */
+	grid-column-gap: 10px;
+}
+.food{
+	grid-area: d;
+	background-color: lightgray;
+	
+}
+.places{
+	grid-area: c;
+	background-color: lightgray;
+	
+}
+.desc{
+	grid-area: b;
+	background-color: lightgray;
+	
+}
+.state{
+	grid-area: a;
+	text-align: center;
+	background-color: lightgray;
+}
+.card{
+	border: 2px solid black;
+	padding: 10px;
+	border-radius: 25px;
+}
+h3{
+	text-align: center;
+}
